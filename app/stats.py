@@ -18,3 +18,5 @@ save(tasks)
 if __name__ == "__main__":
     add_task("Test")
     print(list_tasks())
+def format_tasks(tasks):
+    return [f"{t['name']} ({t['priority']})" for t in tasks]
