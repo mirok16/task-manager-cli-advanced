@@ -39,3 +39,14 @@ test_tasks.py
 test_stats.py
 
 data.json # Stored data
+
+▶️ Usage
+
+Run the application:
+
+python app/tasks.py
+
+Example:
+
+add_task("Buy groceries", "high")
+add_task("Read book", "low")
