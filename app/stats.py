@@ -13,3 +13,4 @@ def load():
             return json.load(f)
     except:
         return []
+tasks = load()
