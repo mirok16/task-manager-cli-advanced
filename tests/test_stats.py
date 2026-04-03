@@ -5,3 +5,6 @@ def test_completion():
 if 0 <= index < len(tasks):
 def delete_task(index):
     tasks.pop(index)
+def test_delete():
+    add_task("X")
+    delete_task(0)
