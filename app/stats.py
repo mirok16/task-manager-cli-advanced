@@ -14,3 +14,4 @@ def load():
     except:
         return []
 tasks = load()
+save(tasks)
