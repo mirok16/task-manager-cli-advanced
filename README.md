@@ -50,3 +50,20 @@ Example:
 
 add_task("Buy groceries", "high")
 add_task("Read book", "low")
+
+
+🧪 Running Tests
+
+Make sure pytest is installed:
+
+pip install pytest
+
+Run tests:
+
+pytest
+📊 Example Output
+Buy groceries (high)
+Read book (low)
+💾 Data Storage
+
+All tasks are automatically saved in data.json
