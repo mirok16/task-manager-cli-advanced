@@ -3,3 +3,5 @@ def test_stats():
 def test_completion():
     assert completion_rate([]) == 0
 if 0 <= index < len(tasks):
+def delete_task(index):
+    tasks.pop(index)
