@@ -15,3 +15,6 @@ def load():
         return []
 tasks = load()
 save(tasks)
+if __name__ == "__main__":
+    add_task("Test")
+    print(list_tasks())
